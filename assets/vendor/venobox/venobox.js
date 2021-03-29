@@ -27,7 +27,7 @@
             var defaults = {
                 arrowsColor : '#B6B6B6',
                 autoplay : false, // same as data-autoplay - thanks @codibit
-                bgcolor: '#fff',
+                bgcolor: '#000',
                 border: '0',
                 closeBackground : '#161617',
                 closeColor : "#d2d2d2",
