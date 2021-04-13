@@ -491,6 +491,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+
 }
 
 .portfolio #portfolio-flters {
@@ -951,7 +952,7 @@ section {
 }
 
 .vbox-container {
-  overflow: hidden
+  /* overflow: hidden */
 }
 
 .vbox-inline  {
@@ -970,4 +971,18 @@ section {
 
 iframe {
   width: 100%; height: 100%; overflow: hidden
+}
+
+.embedIcon {
+  width: 100%
+}
+.fullView {
+  width: 100%;
+  overflow: scroll;
+}
+
+.img-fluid {
+  
+  /* height: 400px; */
+  /* width: fit-content */
 }

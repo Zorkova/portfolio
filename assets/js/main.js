@@ -117,7 +117,13 @@
       itemSelector: '.portfolio-item',
       layoutMode: 'fitRows'
     });
-
+    
+    $("#portfolio-flters li").removeClass('filter-active');
+    $('#ae').addClass('filter-active'); //added by didomir
+    portfolioIsotope.isotope({
+      filter: $('#ae').data('filter')
+    });
+    
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
